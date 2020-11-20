@@ -23,7 +23,6 @@ h2{
 
 header{
     padding-top: 23px;
-    /* border: 1px solid red; */
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -66,7 +65,7 @@ header nav ul li a.sign-up{
 }
 
 section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 section#main{
@@ -113,7 +112,6 @@ section#main div button:hover{
     opacity: 0.7;
 }
 
-
 section#main div.main-section-flower{
     height: 400px;
     height: 400px;
@@ -143,8 +141,8 @@ section#main div.main-section-flower{
 .right-top-radius-and-size{
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    height: 140px;
-    width: 162px;
+    height: 160px;
+    width: 142px;
 }
 
 .left-bottom-radius-and-size{
@@ -167,24 +165,95 @@ section#main img{
     margin-top: -50px;
 }
 
-section#about .section-title{
+section#about{
+    padding-top: 5em;
+    border: none;
+    min-height: 1152px;
+}
+
+
+section#about .section-title {
     display: grid;
     align-items: center;
     column-gap: 5px;
-    grid-template-columns: 30px 205px 316px 379px;
+    grid-template-columns: 30px 210px 316px 379px;
 }
 
-section#about .section-title div:nth-child(2){
+.f-size-weight{
     font-size: 36px;
     font-weight: bold;
 }
 
-section#about .section-title h2{
+.h2-style{
     font-size: 72px;
     color: #222222;
     opacity: 0.1;
     font-weight: bolder;
     font-family: Nunito;
+}
+
+
+section#about article img{
+    margin-top: 30%;
+    margin-left: 3%;
+}
+
+section#about article div.rectangle{
+    height: 388px;
+    width: 278px;
+    margin-top: 5%;
+    position: absolute;
+    background-color: #F7DEA6;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: -1;
+}
+
+section#about div.about-section-flower{
+    height: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 24%;
+    right: 78%;
+    transform: rotate(-2deg);
+    z-index: -2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 180px);
+    column-gap: 10px;
+}
+
+#first-article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+#second-article{
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+section#about article div.about-section-info h2{
+    font-weight: normal;
+    font-size: 36px;
+    color: #3E3F43;
+}
+
+section#about article div.about-section-info p{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.hiw-section-title{
+    display: grid;
+    align-items: center;
+    text-transform: uppercase;
+    column-gap: 5px;
+    grid-template-columns: 30px 350px 65px 700px;
 }
 
 footer{
