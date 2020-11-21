@@ -112,7 +112,7 @@ section#main div.main-section-flower{
     height: 400px;
     height: 400px;
     position: absolute;
-    top: 13%;
+    top: 8%;
     right: 20%;
     transform: rotate(-6deg);
     z-index: -1;
@@ -157,7 +157,6 @@ section#main div.main-section-flower{
     width: 162px;
 }
 
-
 section#main img{
     margin-left: -80px;
     margin-top: -50px;
@@ -168,9 +167,8 @@ section#main img{
 section#about{
     padding-top: 5em;
     border: none;
-    min-height: 1152px;
+    min-height: 952px;
 }
-
 
 section#about .section-title {
     display: grid;
@@ -213,7 +211,7 @@ section#about div.about-section-flower{
     height: 400px;
     height: 400px;
     position: absolute;
-    bottom: 39%;
+    bottom: 63%;
     right: 78%;
     transform: rotate(-2deg);
     z-index: -2;
@@ -246,6 +244,10 @@ section#about article div.about-section-info h2{
 section#about article div.about-section-info p{
     font-size: 24px;
     font-weight: normal;
+}
+
+section#about article img#spoon{
+    margin-top: -60%;
 }
 
 /* **How it works** */
@@ -500,6 +502,7 @@ section#testimony div#all-info-testimony div img{
     background-color: #DAA520;
 }
 
+
 #main-background-img{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -510,4 +513,103 @@ section#testimony div#all-info-testimony div img{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+    align-items: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
 }
+
+#submit{
+    margin-left: 10%;
+}
+
+#submit input:nth-child(1){
+    height: 40px;
+    width: 250px;
+    border: 1px solid #DAA520;
+    border-radius: 4px;
+}
+
+::placeholder{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AFAFAF;
+}
+
+#submit input:nth-child(2){
+    height: 45px;
+    width: 120px;
+    background: #DAA520;
+    border-radius: 4px;
+    border: none;
+    color: #fff; 
+    font-family: Nunito;
+    font-size: 16px;
+    text-align: center;
+}
+
+#submit input:focus{
+    outline: none;
+}
+
+#line{
+    position: relative;
+    width: 650px;
+    border: 1px solid #C4C4C4;
+}
+
+#information{
+    position: relative;
+    margin-top: 25px;
+    width: 650px;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 230px repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+footer div#information img{
+    margin-bottom: 10px;
+}
+
+footer div#information h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+footer div#information p{
+    padding: 0;
+    margin: 0;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+
+footer div#information p:hover{
+    cursor: pointer;
+    color: rgb(231, 183, 26);
+}
+
+footer div#copy p{
+    position: relative;
+    margin-top: 30px;
+    padding-left: 40%;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8D8D8D;
+} 
