@@ -64,10 +64,6 @@ header nav ul li a.sign-up{
     padding: 5px 15px;
 }
 
-section{
-    /* border: 1px solid red; */
-}
-
 section#main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -125,6 +121,8 @@ section#main div.main-section-flower{
     grid-template-rows: repeat(2, 180px);
 }
 
+/* **Global style for rectagle flower** */
+
 .shadow-and-color{
     border: 1px solid rgba(137, 66, 66, 0.2);
     box-sizing: border-box;
@@ -165,6 +163,8 @@ section#main img{
     margin-top: -50px;
 }
 
+/* **About** */
+
 section#about{
     padding-top: 5em;
     border: none;
@@ -178,6 +178,8 @@ section#about .section-title {
     column-gap: 5px;
     grid-template-columns: 30px 210px 316px 379px;
 }
+
+/* **Global style for title** */
 
 .f-size-weight{
     font-size: 36px;
@@ -246,6 +248,8 @@ section#about article div.about-section-info p{
     font-weight: normal;
 }
 
+/* **How it works** */
+
 section#how-it-works{
     min-height: 600px;
 }
@@ -306,7 +310,13 @@ section#how-it-works{
     height: 50px;
     margin-top: 5%;
     position: absolute;
-    left: 45%;
+    left: 42%;
+}
+
+/* **Categories** */
+
+section#categories{
+    min-height: 1100px;
 }
 
 section#categories .catigories-section-title {
@@ -316,9 +326,84 @@ section#categories .catigories-section-title {
     grid-template-columns: 30px 250px 316px 379px;
 }
 
-.cat{
+#products{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    row-gap: 40px;
+    column-gap: 60px;
+}
+
+.product-main-style{
+    height: 400px;
+    width: 280px;
+    background-color: #F9BDBD;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 70px auto 50px;
+    align-items: center;
+}
+
+.product-main-style h2{
+    margin-left: 17px;
+    line-height: 70px;
+}
+
+.yellow-product{
+    background-color:#F7DEA6 ;
+}
+
+.light-blue-product{
+    background-color: #A8DCEC;
+}
+
+.align-img-center{
+    margin-left: 20%;
+}
+
+.product-button{
+    margin-left: 50%;
+    margin-bottom: 8%;
+    background: transparent;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.product-button:focus{
+    outline: none;
+}
+
+.product-button:hover{
+    font-size: 16px;
+    background: rgb(255, 123, 0);
+    opacity: 0.7; 
+    color: #fff;
+    border: none;
+}
+
+/* **Testimony** */
+
+section#testimony .testimony-section-title {
+    display: grid;
+    align-items: center;
+    column-gap: 5px;
+    grid-template-columns: 30px 250px 316px 379px;
+}
+
+#all-info-testimony{
     border: 1px solid red;
-    height:500px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
 }
 
 
