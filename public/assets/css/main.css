@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0 auto;
     width: 952px;
@@ -26,6 +30,10 @@ header{
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+header a img:hover{
+    opacity: 0.7;
 }
 
 header nav ul{
@@ -334,6 +342,10 @@ section#how-it-works{
     opacity: 0.7;
 }
 
+#hiw-button:focus{
+    outline: none;
+}
+
 /* **Categories** */
 
 section#categories{
@@ -408,7 +420,7 @@ section#categories .catigories-section-title {
 
 .product-button:hover{
     font-size: 16px;
-    background: rgb(255, 123, 0);
+    background: #DAA520;
     opacity: 0.7; 
     color: #fff;
     border: none;
@@ -587,6 +599,10 @@ section#testimony div#all-info-testimony div img{
 
 #submit input:focus{
     outline: none;
+}
+
+#submit input:nth-child(2):hover{
+    opacity: 0.7;
 }
 
 #line{
