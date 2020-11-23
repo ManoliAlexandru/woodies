@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/preloader.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+    <div id="page_preloader" class="preloader">
+        <div class="loader">
+            <img src="assets/img/flower_small.png" alt="">
+        </div>
+    </div>
     <div id="page-background"></div>
     <header>
-        <img src="assets/img/logo.png">
+        <a href="index.html" name=" top"><img src="assets/img/logo.png"></a>
         <nav>
             <ul>
                 <li><a href="" class="active">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">How it works</a></li>
-                <li><a href="">Categories</a></li>
-                <li><a href="">Testimony</a></li>
-                <li><a href="" class="sign-up">sign up</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#how-it-work">How it works</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#testimony">Testimony</a></li>
+                <li><a href="" class="sign-up" id="sign-up-btn">sign up</a></li>
             </ul>
         </nav>
     </header>
@@ -73,9 +79,11 @@
             <div class="left-bottom-radius-and-size shadow-and-color"></div>
             <div class="right-bottom-radius-and-size shadow-and-color"></div>
         </div>
+        <a name="#about"></a>
     </section>
 
     <section id="how-it-works">
+        <a name="how-it-work"></a>
         <div class="hiw-section-title">
             <img src="assets/img/flower_small.png" alt="">
             <div class="f-size-weight">How to custome</div>
@@ -84,26 +92,25 @@
             </div>
             <h2 class="h2-style">How it works</h2>
         </div>
-
         <div id="img-group">
             <div id="first-group">
                 <h2>1</h2>
-                <img src="/assets/img/hiw/shop.png" alt="">
+                <img src="assets/img/hiw/shop.png" alt="">
                 <p>Choose Design</p>
             </div>
             <div id="second-group">
                 <h2>2</h2>
-                <img src="/assets/img/hiw/ruler.png" alt="">
+                <img src="assets/img/hiw/ruler.png" alt="">
                 <p>Area Measuring</p>
             </div>
             <div id="third-group">
                 <h2>3</h2>
-                <img src="/assets/img/hiw/cost.png" alt="">
+                <img src="assets/img/hiw/cost.png" alt="">
                 <p>Budgeting</p>
             </div>
             <div id="fourth-group">
                 <h2>4</h2>
-                <img src="/assets/img/hiw/carpenter.png" alt="">
+                <img src="assets/img/hiw/carpenter.png" alt="">
                 <p>Production</p>
             </div>
         </div>
@@ -124,30 +131,31 @@
         <div id="products">
             <div class="product-main-style">
                 <h2>Desk</h2>
-                <img src="/assets/img/desk.png" alt="">
+                <img src="assets/img/desk.png" alt="">
                 <button class="product-button">Shop Now</button>
             </div>
             <div class="product-main-style yellow-product">
                 <h2>Chair</h2>
-                <img src="/assets/img/chair.png" class="align-img-center">
+                <img src="assets/img/chair.png" class="align-img-center">
                 <button class="product-button">Shop Now</button>
             </div>
             <div class="product-main-style light-blue-product">
                 <h2>Kitchenware</h2>
-                <img src="/assets/img/kitchenware.png" class="align-img-center">
+                <img src="assets/img/kitchenware.png" class="align-img-center">
                 <button class="product-button">Shop Now</button>
             </div>
             <div class="product-main-style">
                 <h2>Book Shelf</h2>
-                <img src="/assets/img/book_shelf.png" class="align-img-center">
+                <img src="assets/img/book_shelf.png" class="align-img-center">
                 <button class="product-button">Shop Now</button>
             </div>
             <div class="product-main-style yellow-product">
                 <h2>Electronics</h2>
-                <img src="/assets/img/vintage_radio.png" style="margin-left: 7%;">
+                <img src="assets/img/vintage_radio.png" style="margin-left: 7%;">
                 <button class="product-button">Shop Now</button>
             </div>
         </div>
+        <a name="categories"></a>
     </section>
     <section id="testimony">
         <div class="testimony-section-title">
@@ -160,21 +168,21 @@
         </div>
 
         <div id="all-info-testimony">
-            <div>
-                <img src="/assets/img/apartment.png" alt="">
+            <div id="photo-testimony">
+                <img src="assets/img/apartment.png" alt="">
             </div>
-            <div>
-                <img src="/assets/img/breakfast.png" alt="">
+            <div id="photo-testimony">
+                <img src="assets/img/breakfast.png" alt="">
             </div>
 
             <div id="all-comment-element">
                 <div id="comment">
                     <div id="star">
-                        <img src="/assets/img/star.png" alt="">
-                        <img src="/assets/img/star.png" alt="">
-                        <img src="/assets/img/star.png" alt="">
-                        <img src="/assets/img/star.png" alt="">
-                        <img src="/assets/img/star.png" alt="">
+                        <img src="assets/img/star.png" alt="">
+                        <img src="assets/img/star.png" alt="">
+                        <img src="assets/img/star.png" alt="">
+                        <img src="assets/img/star.png" alt="">
+                        <img src="assets/img/star.png" alt="">
                     </div>
 
                         <div id="comment-text">
@@ -182,7 +190,7 @@
                         </div>
 
                         <div id="comment-author">
-                            <img src="/assets/img/photo.png" alt="">
+                            <img src="assets/img/photo.png" alt="">
                             <p>Sandra Dewi <br> Jakarta Selatan</p>
                         </div>
                     </div>
@@ -204,12 +212,13 @@
                     </div>
                 </div>
              </div>
+             <a name="testimony"></a>
     </section>
     <footer>
         <div id="main-background-img">
-            <img src="/assets/img/pexels-photo1.png" style="width: 100%;
+            <img src="assets/img/pexels-photo1.png" style="width: 100%;
             height: 510px;">
-            <img src="/assets/img/pexels-photo2.png" style="width: 100%;
+            <img src="assets/img/pexels-photo2.png" style="width: 100%;
             height: 510px;">
         </div>
 
@@ -231,7 +240,7 @@
         <div id="line"></div>
 
         <div id="information">
-            <img src="/assets/img/logo.png" alt="">
+            <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
             <h2>Product</h2>
             <h2>Resources</h2>
             <h2>Company</h2>
@@ -259,6 +268,11 @@
         </div>
     </footer>
 
+    <div id="yakori">
+        <a href="#top">&uarr;</a>
+    </div>
 
+    <script src="assets/js/prelaoder.js"></script>
+    <script src="assets/js/shadow.js"></script>
 </body>
 </html>

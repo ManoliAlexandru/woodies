@@ -51,6 +51,10 @@ header nav ul li a{
     text-decoration: none;
 }
 
+header nav ul li a:hover{
+    color: #DAA520;
+}
+
 header nav ul li a.active{
     font-weight: 800;
     color: #DAA520;
@@ -62,6 +66,11 @@ header nav ul li a.sign-up{
     border: 1px solid #3E3F43;
     border-radius: 8px;
     padding: 5px 15px;
+}
+
+header nav ul li a#sign-up-btn:hover{
+    background-color: #DAA520;
+    color: #FFF;
 }
 
 section#main{
@@ -272,10 +281,16 @@ section#how-it-works{
     margin-top: 10%;
     width: 1050px;
     height: 177px;
+    user-select: none;  
 }
 
 #img-group img{
     padding-left: 18%;
+}
+
+#img-group img:hover{
+    opacity: 0.6;
+    transform: scale(0.9);
 }
 
 #img-group h2{
@@ -315,6 +330,10 @@ section#how-it-works{
     left: 42%;
 }
 
+#hiw-button:hover{
+    opacity: 0.7;
+}
+
 /* **Categories** */
 
 section#categories{
@@ -347,6 +366,10 @@ section#categories .catigories-section-title {
     grid-template-columns: auto;
     grid-template-rows: 70px auto 50px;
     align-items: center;
+}
+
+.product-main-style img:hover{
+    transform: rotate(8deg);
 }
 
 .product-main-style h2{
@@ -410,6 +433,14 @@ section#testimony .testimony-section-title {
     grid-template-columns: 240px 240px auto;
     grid-template-rows: auto;
     column-gap: 50px;
+}
+
+section#testimony div#all-info-testimony div#photo-testimony img{
+    opacity: 0.5;
+}
+
+section#testimony div#all-info-testimony div#photo-testimony img:hover{
+    opacity: 1;
 }
 
 section#testimony div#all-info-testimony div img{
@@ -613,3 +644,27 @@ footer div#copy p{
     line-height: 16px;
     color: #8D8D8D;
 } 
+
+#yakori{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    left: 90%;
+    background-color: #DAA520;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+#yakori a{
+    margin-left: 32%;
+    font-size: 36px;
+    user-select: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+#yakori:hover{
+    padding-bottom: 10px;
+    opacity: 1;
+}
