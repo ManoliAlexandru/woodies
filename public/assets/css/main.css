@@ -29,7 +29,7 @@ header{
     padding-top: 23px;
     height: 100px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.7fr;
 }
 
 header a img:hover{
@@ -73,12 +73,13 @@ header nav ul li a.sign-up{
     font-weight: bold;
     border: 1px solid #3E3F43;
     border-radius: 8px;
-    padding: 5px 15px;
+    padding: 7px 35px;
 }
 
 header nav ul li a#sign-up-btn:hover{
     background-color: #DAA520;
     color: #FFF;
+
 }
 
 section#main{
@@ -147,29 +148,29 @@ section#main div.main-section-flower{
 }
 
 .left-top-radius-and-size{
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
     height: 162px;
     width: 140px;
 }
 
 .right-top-radius-and-size{
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
     height: 160px;
     width: 142px;
 }
 
 .left-bottom-radius-and-size{
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
     height: 162px;
     width: 140px;
 }
 
 .right-bottom-radius-and-size{
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
     height: 140px;
     width: 162px;
 }
@@ -187,7 +188,7 @@ section#about{
     min-height: 952px;
 }
 
-section#about .section-title {
+section#about header {
     display: grid;
     align-items: center;
     column-gap: 5px;
@@ -196,17 +197,22 @@ section#about .section-title {
 
 /* **Global style for title** */
 
-.f-size-weight{
+section header strong{
     font-size: 36px;
     font-weight: bold;
 }
 
-.h2-style{
+section header h2{
     font-size: 72px;
     color: #222222;
     opacity: 0.1;
     font-weight: bolder;
     font-family: Nunito;
+}
+
+section header div.divider{
+    background: #000;
+    height: 2px;
 }
 
 section#about article div.rectangle{
@@ -215,27 +221,27 @@ section#about article div.rectangle{
     margin-top: 5%;
     position: absolute;
     background-color: #F7DEA6;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
     z-index: -1;
 }
 
 section#about article img#bowl{
-    padding-top: 30%;
+    padding-top: 130px;
+    padding-left: 40px;
 }
 
 section#about div.about-section-flower{
     height: 400px;
     height: 400px;
     position: absolute;
-    bottom: 63%;
-    right: 78%;
+    top: 30.4%;
+    left: -12%;
     transform: rotate(-2deg);
     z-index: -2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 180px);
-    column-gap: 10px;
 }
 
 #first-article{
@@ -249,18 +255,18 @@ section#about div.about-section-flower{
     display: grid;
     grid-template-columns: 70% auto;
     grid-template-rows: 290px;
-    padding-top: 10%;
+    padding-top: 18%;
 }
 
 section#about article div.about-section-info h2{
     font-weight: normal;
     font-size: 36px;
-    color: #3E3F43;
 }
 
 section#about article div.about-section-info p{
     font-size: 24px;
-    font-weight: normal;
+    font-weight: bold;
+    margin: 16px;
 }
 
 section#about article img#spoon{
@@ -273,12 +279,12 @@ section#how-it-works{
     min-height: 600px;
 }
 
-.hiw-section-title{
+section#how-it-works header{
     display: grid;
     align-items: center;
     text-transform: uppercase;
     column-gap: 5px;
-    grid-template-columns: 30px 350px 65px 570px;
+    grid-template-columns: 30px 320px 60px 570px;
 }
 
 #img-group{
@@ -352,7 +358,7 @@ section#categories{
     min-height: 1100px;
 }
 
-section#categories .catigories-section-title {
+section#categories header{
     display: grid;
     align-items: center;
     column-gap: 5px;
@@ -372,8 +378,8 @@ section#categories .catigories-section-title {
     height: 400px;
     width: 280px;
     background-color: #F9BDBD;
-    border-top-right-radius: 30%;
-    border-bottom-left-radius: 30%;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 70px auto 50px;
@@ -412,6 +418,7 @@ section#categories .catigories-section-title {
     font-family: Nunito;
     font-style: normal;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .product-button:focus{
@@ -432,7 +439,7 @@ section#testimony{
     min-height: 650px;
 }
 
-section#testimony .testimony-section-title {
+section#testimony header{
     display: grid;
     align-items: center;
     column-gap: 5px;
@@ -489,15 +496,17 @@ section#testimony div#all-info-testimony div img{
     width: 50px;
 }
 
-#comment-author p  {
+#comment-author p{
     padding-top: 7px;
     margin: 0;
+    color: #AFAFAF;
 }
 
 .first-slider-element{
     padding-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
 }
 
 #previous{
@@ -513,7 +522,7 @@ section#testimony div#all-info-testimony div img{
 }
 
 #next{
-    padding-left: 70%;
+    padding-left: 150px;
     color: #3E3F43;
     font-family: Nunito;
     font-style: normal;
@@ -525,7 +534,7 @@ section#testimony div#all-info-testimony div img{
 }
 
 .second-slider-element{
-    margin-left: 60%;
+    margin-left: 270px;
 }
 
 #active-slider-element{
@@ -563,17 +572,20 @@ section#testimony div#all-info-testimony div img{
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 #submit{
-    margin-left: 10%;
+
+    display: grid;
+    grid-template-columns: 305px 120px;
 }
 
 #submit input:nth-child(1){
     height: 40px;
-    width: 250px;
     border: 1px solid #DAA520;
-    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 ::placeholder{
@@ -586,10 +598,9 @@ section#testimony div#all-info-testimony div img{
 }
 
 #submit input:nth-child(2){
-    height: 45px;
-    width: 120px;
     background: #DAA520;
-    border-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
     border: none;
     color: #fff; 
     font-family: Nunito;
@@ -632,6 +643,10 @@ footer div#information h2{
     font-size: 18px;
     line-height: 25px;
     color: #333333;
+}
+
+#newsletter > div:nth-child(1) > p{
+    margin-top: 5px;
 }
 
 footer div#information p{

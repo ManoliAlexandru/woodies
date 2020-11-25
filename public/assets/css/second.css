@@ -1,0 +1,157 @@
+html{
+    background: rgb(195,161,34);
+    background: linear-gradient(0deg, rgba(195,161,34,1) 0%, rgba(253,226,45,0.5158438375350141) 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* #main2{
+    position: absolute;
+    width: 1120px;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 20px;
+    left: 9%;
+    top: 100%;
+    background-color: #fff;
+} */
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 950px;
+    position: relative;
+    font-family: Nunito;
+}
+
+h2{
+    margin: 0;
+}
+
+#page-background{
+    background-color: #F9BDBD;
+    width: 270px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 150px;
+    z-index: -1;
+}
+
+
+header{
+    padding-top: 23px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header a img:hover{
+    opacity: 0.7;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 45px 68px 96px 77px 74px 150px;
+    column-gap: 28px;
+}
+
+header nav ul li{
+    text-align: center;
+}
+
+header nav ul li a{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: #DAA520;
+}
+
+header nav ul li a.active{
+    font-weight: 800;
+    color: #DAA520;
+}
+
+header nav ul li a.sign-up{
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #3E3F43;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+header nav ul li a#sign-up-btn:hover{
+    background-color: #DAA520;
+    color: #FFF;
+}
+
+section#main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 5em;
+    border: none;
+    min-height: 400px;
+}
+
+section#main div{
+    display: grid;
+    grid-template-rows: 100px 200px 40px;
+}
+
+section#main div p{
+    font-size: 36px;
+    width: 504px;
+    margin: 0;
+}
+
+section#main div h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: #313235;
+    margin: 0;
+}
+
+#main-button{
+    background-color: #DAA520;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 175px;
+    height: 50px;
+}
+
+section#main div button:focus{
+    outline: none;
+}
+
+section#main div button:hover{
+    opacity: 0.7;
+}
+
+
+section#main div.main-section-flower{
+    height: 400px;
+    height: 400px;
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    transform: rotate(-6deg);
+    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 180px);
+}
